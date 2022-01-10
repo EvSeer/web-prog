@@ -1,0 +1,153 @@
+main {
+  min-height: 98vh;
+}
+
+.searchRes__proposal {
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+}
+
+.searchRes__proposal .searchRes-proposal__label {
+  font-size: 18px;
+}
+
+.searchRes-proposal__container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.searchRes-proposal__container .searchRes-proposal__item {
+  border: 2px solid;
+  border-radius: 1vw;
+  border-color: #C4C4C4;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin-top: calc(100%/90);
+  width: 30%;
+}
+
+@media (max-width: 900px) {
+  .searchRes-proposal__container .searchRes-proposal__item {
+    width: 50%;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  .searchRes-proposal__container .searchRes-proposal__item {
+    width: 95%;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+
+.searchRes-proposal__container .searchRes-proposal__item img {
+  width: 100%;
+}
+
+.searchRes-proposal__container .searchRes-proposal__item1 {
+  border: 2px solid;
+  border-radius: 1vw;
+  border-color: #C4C4C4;
+  font-size: 23px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  padding: 0 5px;
+  margin: 0 10px;
+}
+
+@media (min-width: 1200px) {
+  .searchRes-proposal__container .searchRes-proposal__item1 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .searchRes-proposal__container .searchRes-proposal__item1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .searchRes-proposal__container .searchRes-proposal__item1 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .searchRes-proposal__container .searchRes-proposal__item1 {
+    display: none;
+  }
+}
+
+.searchRes-proposal__container .searchRes-proposal__item2 {
+  border: 2px solid;
+  border-radius: 1vw;
+  border-color: #C4C4C4;
+  text-align: center;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+@media (min-width: 1700px) {
+  .searchRes-proposal__container .searchRes-proposal__item2 {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .searchRes-proposal__container .searchRes-proposal__item2 {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  .searchRes-proposal__container .searchRes-proposal__item2 {
+    display: none;
+  }
+}
+
+.searchRes-proposal__container .searchRes_stars {
+  font-size: 70px;
+  color: #C4C4C4;
+  text-shadow: 1px 1px 1px black;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1600px) {
+  .searchRes-proposal__container .searchRes_stars {
+    font-size: 90px;
+  }
+}
+
+.searchRes-proposal__container .searchRes_rate {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+@media (min-width: 1600px) {
+  .searchRes-proposal__container .searchRes_rate {
+    font-size: 40px;
+  }
+}
+
+.searchRes-proposal__container .searchRes_countRate {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+@media (min-width: 1600px) {
+  .searchRes-proposal__container .searchRes_countRate {
+    font-size: 36px;
+  }
+}
+/*# sourceMappingURL=searchRes.css.map */

@@ -1,0 +1,126 @@
+.main__proposal {
+  margin-top: 50px;
+  width: 100%;
+  position: relative;
+  .main-proposal__label {
+    font-size: 18px;
+  }
+  .main--proposal__arrow--left{
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      width: 20px;
+      height: 20px;
+  }
+  .main--proposal__arrow--right{
+      position: absolute;
+      top: 50%;
+      right: 10px;
+      width: 20px;
+      height: 20px;
+  }
+  .main__proposal-slider-line{
+    overflow: hidden;
+    width: calc(100% - 100px);
+    margin-left: 50px;
+  }
+  .main-proposal__container {
+    width: 140%;
+    display: flex;
+    position: relative;
+    .main-proposal__item {
+      width: 20%;
+      margin-left: 4.8%;
+      border: 2px solid;
+      border-radius: 1vw;
+      border-color: #C4C4C4;
+      @media (max-width: 1300px) {
+        margin-left: 2%;
+      }
+      @media (max-width: 1000px) {
+        margin-left: 12%;
+        
+      }
+      @media (max-width: 900px) {
+        margin-left: 12%;
+      }
+      @media (max-width: 600px) {
+        width: 100%;
+        margin-left: 22%;
+      }
+      &:last-child {
+        @media (max-width: 1300px) {
+          display: none;
+        }
+      }
+      &:first-child {
+        @media (max-width: 1300px) {
+          display: none;
+        }
+      }
+      &:nth-child(7) {
+        @media (max-width: 1000px) {
+          display: none;
+        }
+      }
+      &:nth-child(6) {
+        @media (max-width: 1000px) {
+          display: none;
+        }
+      }
+      &:nth-child(2) {
+        @media (max-width: 900px) {
+          display: none;
+        }
+      }
+      &:nth-child(8) {
+        @media (max-width: 900px) {
+          display: none;
+        }
+      }
+      &:nth-child(4) {
+        @media (max-width: 600px) {
+          display: none;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.main__aboutrang{
+  background-color:$divBackgroundColor;
+  padding: 40px;
+  display: flex;
+  margin-top: 50px;
+  @media (max-width: 900px) {
+    display: block;
+  }
+
+
+  .main-aboutrang__image{
+    @media (max-width: 900px) {
+    display: block;
+    height: 300px;
+    margin-left: calc(50% - 125px);
+    }
+  }
+  .main-aboutrang__image--left{ 
+    margin-top: 50px;
+    float: left;
+    width: 250px;
+    height: 150px;
+
+}
+  .main-aboutrang__text{
+      margin-left: 40px;
+       .main-aboutrang__label{
+           font-size: 18px;
+       }
+       .main-aboutrang__paragrph{
+           font-size: 18px;
+       }
+  }
+}
+

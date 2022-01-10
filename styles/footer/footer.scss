@@ -1,0 +1,15 @@
+.footer {
+  height: 60px;
+  width: 100%;
+  background-color: $headerBackgroundColor;
+  .footer__text{
+      width: 418px;
+     .footer__paragrapgh{
+         font-size: 20px;
+         color: $textColorLight;
+         margin-left:40px;
+         padding: 10px;
+         border-bottom: 1px dashed #fff;
+      }
+  }
+}

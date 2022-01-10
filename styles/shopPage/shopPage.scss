@@ -1,0 +1,158 @@
+.shop__proposal {
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    .shop-proposal__label {
+      font-size: 36px;
+    }
+    .shop-proposal__container {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        .shop-proposal__item {
+        flex-basis: 50%;
+        width: 400px;
+        height: 200px;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 1vw;
+        border-color: #C4C4C4;
+        @media (min-width: 1200px) {
+            flex-basis: 30%;
+            }
+        @media (max-width: 700px) {
+            flex-basis: 100%;
+            }   
+      }
+    }
+    .shop-proposal__item1{
+        flex-basis: 50%;
+        height: 200px;
+        border: 2px solid;
+        border-radius: 1vw;
+        border-color: #C4C4C4;
+        padding: 0 10px;
+        margin: 0 0 0 20px;
+        @media (min-width: 1200px) {
+            flex-basis: 70%;
+            }
+        @media (max-width: 700px) {
+            display:none;
+            flex-basis: 0%;
+            }
+      }
+    .shopPage_stars{
+        font-size: 40px;
+        color: #C4C4C4;
+        text-shadow: 1px 1px 1px black;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        @media (min-width: 1200px) {
+            font-size: 50px;
+        }
+        @media (min-width: 1600px) {
+            font-size: 60px;
+        }
+      }
+      .shopPage_rate{
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        font-size: 20px;
+        @media (min-width: 1200px) {
+            font-size: 30px;
+            }
+      }
+      .shopPage_description{
+        margin: 0;
+        padding: 0;
+        font-size: 10px;
+        @media (min-width: 1200px) {
+            font-size: 15px;
+            }
+      }
+  }
+  .shop__item{
+    display: block;
+    border: 2px solid;
+    border-radius: 1vw;
+    border-color: #C4C4C4;
+    font-size: 23px;
+    padding: 0 10px 10px;
+    @media (min-width: 700px) {
+        display:none;
+        }
+  }
+
+.shop__review{
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    .shop-review__label {
+        font-size: 36px;
+      }
+    .shop-review__container {
+        width: 100%;
+        display: block;
+
+        .shop-review__item{
+            .newReview{
+                border: 2px solid;
+                border-radius: 1vw;
+                border-color: #C4C4C4;
+                width: 100%;
+                background-color: $buttonBackgroundColor;
+                .shop-review__label{
+                    text-align: center;
+                }
+            }
+        }
+        .shop-review__item1{
+            display: flex;
+            border: 2px solid;
+                border-radius: 1vw;
+                border-color: #C4C4C4;
+            
+            img{
+                padding: 10px 0 0 10px;
+                width: 60px;
+                height: 60px;
+            }
+            .shopReview_stars{
+                font-size: 30px;
+                color: #C4C4C4;
+                text-shadow: 1px 1px 1px black;
+                margin: 0;
+                padding: 0;
+                padding: 0 0 0 0;
+            }
+            .line-break{
+                width: 100%;
+            }
+            .showReview_username{
+                font-size: 15px;
+                margin: 0;
+                padding: 0;
+                padding: 0 0 0 5px;
+            }
+            .showReview_date{
+                font-size: 15px;
+                margin: 0;
+                padding: 0;
+                margin: 0 0 0 5px;
+            }
+            .shop-review__label{
+                font-size: 18px bold;
+                margin: 0 0 5px -15px;
+                padding: 0;
+            }
+            .shop-review__full{
+                font-size: 14px;
+                margin: 0 0 10px 0;
+                padding: 0;
+            }
+
+        }
+    }
+}
